@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Responsive Owl-Carousel Slider | CodingNepal</title> -->
+    <link rel="stylesheet" href="xanut.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  </head>
+  <body>
+    
+    
+
+
+    <div class="wrapper">
+      <div class="carousel owl-carousel">
+        <div class="card card-1">
+            <img src="https://e4gzdq2hita.exactdn.com/wp-content/uploads/2020/05/uc_product-scaled.jpg?strip=all&lossy=1&ssl=1" width="100%"
+            height="100%">
+            <p class="uc"><button class="uc">60+4UC-79₽</button></p>
+</div>
+<div class="card card-2">
+    <img src="https://e4gzdq2hita.exactdn.com/wp-content/uploads/2020/05/uc_product-scaled.jpg?strip=all&lossy=1&ssl=1" width="100%"
+    height="100%">
+    <p class="uc"><button class="uc">300+40UC-399₽</button></p></div>
+<div class="card card-3">
+    <img src="https://e4gzdq2hita.exactdn.com/wp-content/uploads/2020/05/uc_product-scaled.jpg?strip=all&lossy=1&ssl=1" width="100%"
+    height="100%">
+    <p class="uc"> <button class="uc"> 600+60UC-799₽</button></p></div>
+<div class="card card-4">
+    <img src="https://e4gzdq2hita.exactdn.com/wp-content/uploads/2020/05/uc_product-scaled.jpg?strip=all&lossy=1&ssl=1" width="100%"
+    height="100%">
+    <p class="uc"><button class="uc">3000+1000UC-3999₽</button></p></div>
+<div class="card card-5">
+    <img src="https://e4gzdq2hita.exactdn.com/wp-content/uploads/2020/05/uc_product-scaled.jpg?strip=all&lossy=1&ssl=1" width="100%"
+    height="100%">
+    <p class="uc"><button class="uc"> 6000+2000UC-7999₽</button></p></div>
+</div>
+</div>
+<script>
+      $(".carousel").owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0:{
+            items:1,
+            nav: false
+          },
+          600:{
+            items:2,
+            nav: false
+          },
+          1000:{
+            items:3,
+            nav: false
+          }
+        }
+      });
+    </script>
+
+
+  </body>
+</html>
